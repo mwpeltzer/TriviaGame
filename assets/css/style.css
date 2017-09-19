@@ -1,0 +1,23 @@
+
+body {
+	text-decoration-color: red;
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+	/*background-image: url('http://sneakerness.com/wp-content/uploads/2012/02/mj_bday.png');	*/
+/*	background-image: url('../images/MJpic.png');
+*/}
+
+header {
+/*	display: none;
+*/	color: red;
+	font-size: 50px;
+}
+
+form {
+	color: red;
+	text-shadow: black;
+}
+
+.hideme {
+	display: none;
+}

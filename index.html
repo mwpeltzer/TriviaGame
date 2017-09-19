@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Michael Jordan Trivia Game</title>
+
+	<!-- link to external css sheet -->
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- link to bootstrap -->
+<!--   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ -->
+
+</head>
+<body class=".bg">
+	
+
+	<div class="container">
+
+		<header>His Airness: Michael Jordan Trivia Game</header>
+
+			<div id="opening">Test Your Knowledge Of Greatest Basketball Player Of All Time</div>
+			
+				<div id="timer" class="hideme">30 Seconds</div>
+
+				<a href="#" id="startClock">Start Game</a>
+
+				<form class="hideme" id="form"> <!-- gives 2 classes to 'form' hidden so when the final answer page shows up the main page disapears -->
+				
+				<!-- question 1 -->
+				<h2>How Many Championships Has Michael Jordan Won?</h2>
+					<input type="radio" name="jordan1" value="wrong" id="choice1">
+					<label for="choice1">8</label>
+					
+					<input type="radio" name="jordan1" value="wrong" id="choice2">
+					<label for="choice2">4</label>
+					
+					<input type="radio" name="jordan1" value="wrong" id="choice3">
+					<label for="choice3">5</label>
+
+					<input type="radio" name="jordan1" value="right" id="choice2">
+					<label for="choice2">6</label>
+
+				<!-- question 2 -->
+				<h2>What Was The Last Team That Michael Jordan Won An NBA Championship Against?</h2>
+					<input type="radio" name="jordan2" value="wrong" id="choice1">
+					<label for="choice1">Los Angeles Lakers</label>
+
+					<input type="radio" name="jordan2" value="wrong" id="choice2">
+					<label for="choice2">Miami Heat</label>
+
+					<input type="radio" name="jordan2" value="wrong" id="choice3">
+					<label for="choice3">Houston Rockets</label>
+
+					<input type="radio" name="jordan2" value="right" id="choice4">
+					<label for="choice4">Utah Jazz</label>
+
+				<!-- question 3 -->
+				<h2>What Was The Only Other Number Michael Jordan Wore Besides 23?</h2>
+					<input type="radio" name="jordan3" value="right" id="choice1">
+					<label for="choice1">45</label>
+
+					<input type="radio" name="jordan3" value="wrong" id="choice2">
+					<label for="choice2">24</label>
+
+					<input type="radio" name="jordan3" value="wrong" id="choice3">
+					<label for="choice3">91</label>
+
+					<input type="radio" name="jordan3" value="wrong" id="choice4">
+					<label for="choice4">33</label>
+
+				<!-- question 4 -->
+				<h2>What NCAA Team Did Michael Jordan Deliver A Championship To As A Freshman?</h2>
+					<input type="radio" name="jordan4" value="wrong" id="choice1">
+					<label for="choice1">San Diego State Trojans</label>
+
+					<input type="radio" name="jordan4" value="right" id="choice2">
+					<label for="choice2">University Of North Carolina Tarheels</label>
+
+					<input type="radio" name="jordan4" value="wrong" id="choice3">
+					<label for="choice3">UCLA Extension</label>
+
+					<input type="radio" name="jordan4" value="wrong" id="choice4">
+					<label for="choice4">College Of The Canyons</label>
+				
+				<!-- question 5 -->
+				<h2>How Many Scoring Titles Does Michael Jordan Have To His Name?</h2>
+					<input type="radio" name="jordan5" value="wrong" id="choice1">
+					<label for="choice1">6</label>
+
+					<input type="radio" name="jordan5" value="wrong" id="choice2">
+					<label for="choice2">15</label>
+
+					<input type="radio" name="jordan5" value="right" id="choice3">
+					<label for="choice3">10</label>
+
+					<input type="radio" name="jordan5" value="wrong" id="choice4">
+					<label for="choice4">0</label>	
+					
+					<br></br>
+					<input type="submit" class="btn btn-info" value="Submit Button" id="submit">
+
+				</form>
+
+				<div class="hideme" class="results" id="results">
+					<h1 id="right">Right:</h1>
+					<h1 id="wrong">Wrong:</h1>
+					<h1 id="unanswered">Unanswered:</h1>
+				</div>
+
+	
+	</div> <!-- close of container div -->
+
+</body>
+
+	 <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</html>
