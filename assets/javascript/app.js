@@ -29,6 +29,7 @@ function timer() {
 	clearInterval(counter);
 	return;
 	}
+	
 
 	// inputs timer into the html so that it can be seen on the screen
 	document.getElementById('timer').innerHTML = count + " Seconds Remaining";

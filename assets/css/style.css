@@ -3,19 +3,52 @@ body {
 	text-decoration-color: red;
 	text-align: center;
 	font-family: "Arial Black", Gadget, sans-serif;
+	font-style: italic;
 	/*background-image: url('http://sneakerness.com/wp-content/uploads/2012/02/mj_bday.png');	*/
-/*	background-image: url('../images/MJpic.png');
-*/}
+	/*background-image: url('../images/MJpic.png');*/
+	background-image: url('https://wallpapercave.com/wp/kjut28e.jpg');
+
+}
+
+#opening {
+	color: white;
+	font-size: 25px;
+}
+
+#startClock {
+	color: red;
+	font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#timer {
+	color: red;
+	font-size: 40px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
 
 header {
 /*	display: none;
-*/	color: red;
+*/	color: white;
 	font-size: 50px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 form {
+	color: black;
+	background-color: white;
+	font-size: 20;
+	opacity: 
+	padding: 75px;
+	font-weight: bold;
+}
+
+#results {
 	color: red;
-	text-shadow: black;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 .hideme {
